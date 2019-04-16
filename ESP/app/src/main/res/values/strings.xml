@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ESP</string>
+    <string name="devicename">鱼塘投食机</string>
+    <string name="devicediscover">设备配网中请稍后...</string>
+</resources>

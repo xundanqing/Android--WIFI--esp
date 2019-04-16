@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!--顶部对话框-->
+    <com.qmuiteam.qmui.widget.QMUITopBar
+        android:id="@+id/devicecontrolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/qmui_topbar_height"
+        app:qmui_topbar_bg_color="@color/colorPrimary"
+        app:qmui_topbar_need_separator="true" />
+
+    <!--顶部对话框预留空白-->
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"/>
+
+
+    <!--第一排控件位置-->
+    <RelativeLayout
+        android:layout_marginLeft="40dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="75dp">
+
+        <ImageView
+            android:id="@+id/food"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/food"/>
+
+        <TextView
+            android:layout_marginStart="40dp"
+            android:id="@+id/foodview"
+            android:text="投食机"
+            android:textSize="16dp"
+            android:layout="@+id/food"
+            android:layout_toEndOf="@+id/food"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+         <Switch
+             android:id="@+id/Switchfood"
+             android:layout_marginStart="60dp"
+             android:layout_centerInParent="true"
+             android:layout_toEndOf="@+id/foodview"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <!--第二排控件位置-->
+    <RelativeLayout
+        android:layout_marginLeft="40dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="75dp">
+
+        <ImageView
+            android:id="@+id/food2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/o2"/>
+
+        <TextView
+            android:layout_marginStart="40dp"
+            android:id="@+id/foodview2"
+            android:text="加氧机"
+            android:textSize="15dp"
+            android:layout="@+id/food"
+            android:layout_toEndOf="@+id/food2"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Switch
+            android:id="@+id/SwitchO2_2"
+            android:layout_marginStart="60dp"
+            android:layout_centerInParent="true"
+            android:layout_toEndOf="@+id/foodview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+    <!--第一排控件位置-->
+    <RelativeLayout
+        android:layout_marginLeft="40dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="75dp">
+
+        <ImageView
+            android:id="@+id/food3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/o2"/>
+
+        <TextView
+            android:layout_marginStart="40dp"
+            android:id="@+id/foodview3"
+            android:text="加氧机"
+            android:textSize="15dp"
+            android:layout="@+id/food"
+            android:layout_toEndOf="@+id/food3"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Switch
+            android:id="@+id/SwitchO2_3"
+            android:layout_marginStart="60dp"
+            android:layout_centerInParent="true"
+            android:layout_toEndOf="@+id/foodview3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+
+    <!--第四排控件位置-->
+    <RelativeLayout
+        android:layout_marginLeft="40dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="75dp">
+
+        <ImageView
+            android:id="@+id/food4"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:src="@drawable/o2"/>
+
+        <TextView
+            android:layout_marginStart="40dp"
+            android:id="@+id/foodview4"
+            android:text="加氧机"
+            android:textSize="15dp"
+            android:layout="@+id/food"
+            android:layout_toEndOf="@+id/food4"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Switch
+            android:id="@+id/SwitchO2_4"
+            android:layout_marginStart="60dp"
+            android:layout_centerInParent="true"
+            android:layout_toEndOf="@+id/foodview4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</LinearLayout>
